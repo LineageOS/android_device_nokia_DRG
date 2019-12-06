@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from nokia sdm660-common
 $(call inherit-product, device/nokia/sdm660-common/sdm660.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
 
