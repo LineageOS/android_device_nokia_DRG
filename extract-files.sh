@@ -16,7 +16,7 @@
 
 set -e
 
-export DEVICE=PL2
+export DEVICE=DRG
 export DEVICE_COMMON=sdm660-common
 export VENDOR=nokia
 export DEVICE_BRINGUP_YEAR=2019

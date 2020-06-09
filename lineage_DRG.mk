@@ -21,31 +21,40 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-#nherit from PL2 device
-$(call inherit-product, device/nokia/PL2/device.mk)
+# Inherit from DRG device
+$(call inherit-product, device/nokia/DRG/device.mk)
+
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
+
+# Inherit from nokia sdm660-common
+$(call inherit-product, device/nokia/sdm660-common/sdm660.mk)
+
+# Set Shipping API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := PL2,PL2_sprout,Plate2
+TARGET_OTA_ASSERT_DEVICE := DRG,DRG_sprout,Dragon
 
 # Boot Animation
-TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
-PRODUCT_NAME := lineage_PL2
-PRODUCT_DEVICE := PL2
+PRODUCT_NAME := lineage_DRG
+PRODUCT_DEVICE := DRG
 PRODUCT_MANUFACTURER := HMD Global
 PRODUCT_BRAND := Nokia
-PRODUCT_MODEL := Nokia 6.1
+PRODUCT_MODEL := Nokia 6.1 Plus
 
 PRODUCT_GMS_CLIENTID_BASE := android-hmd
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=PL2_sprout \
-    PRODUCT_NAME=Plate2_00WW \
-    PRIVATE_BUILD_DESC="Plate2_00WW-user 10 QKQ1.190828.002 00WW_4_10C release-keys"
+    PRODUCT_DEVICE=DRG_sprout \
+    PRODUCT_NAME=Dragon_00WW \
+    PRIVATE_BUILD_DESC="Dragon_00WW 10 QKQ1.190828.002 00WW_4_150 release-keys"
 
-BUILD_FINGERPRINT := Nokia/Plate2_00WW/PL2_sprout:10/QKQ1.190828.002/00WW_4_10C:user/release-keys
+BUILD_FINGERPRINT := Nokia/Dragon_00WW/DRG_sprout:10/QKQ1.190828.002/00WW_4_150:user/release-keys
