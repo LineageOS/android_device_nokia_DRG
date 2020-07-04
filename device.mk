@@ -20,9 +20,5 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from nokia sdm660-common
 $(call inherit-product, device/nokia/sdm660-common/sdm660.mk)
 
-# Ramdisk
-PRODUCT_PACKAGES += \
-    init.PL2.target.rc
-
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
+$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
