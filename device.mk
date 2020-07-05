@@ -22,3 +22,7 @@ $(call inherit-product, device/nokia/sdm660-common/sdm660.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
+
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.DRG.target.rc
