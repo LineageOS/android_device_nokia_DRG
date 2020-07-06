@@ -308,7 +308,6 @@ vendor/bin/qca6234-service.sh
 vendor/bin/remove_data_ramdisk.sh
 vendor/bin/wpa_cli
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
-vendor/lib/libEGL_adreno.so
 vendor/lib/libbthost_if.so
 vendor/lib/librecovery_updater_msm.so
 vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
@@ -321,7 +320,6 @@ vendor/lib/hw/android.hardware.audio@4.0-impl.so
 vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/lib/modules/qca_cld3_wlan.ko
-vendor/lib64/libEGL_adreno.so
 vendor/lib64/libbthost_if.so
 vendor/lib64/librecovery_updater_msm.so
 vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
