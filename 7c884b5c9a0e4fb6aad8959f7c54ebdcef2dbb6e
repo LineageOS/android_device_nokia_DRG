@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ef9f75ba_a987aa77",
+        "filename": "rootdir/etc/init.DRG.target.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2020-09-13T07:25:14Z",
+      "side": 1,
+      "message": "is this needed for something?",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 54
+      },
+      "revId": "7c884b5c9a0e4fb6aad8959f7c54ebdcef2dbb6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
