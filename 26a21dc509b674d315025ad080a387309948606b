@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "027bcb3d_b8c43667",
+        "filename": "rootdir/etc/init.DRG.target.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-09-14T04:20:30Z",
+      "side": 0,
+      "message": "drop them from prop-files too if you\u0027re gonna do this.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 42
+      },
+      "revId": "26a21dc509b674d315025ad080a387309948606b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
