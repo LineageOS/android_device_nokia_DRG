@@ -236,30 +236,11 @@ vendor/lib/libmmcamera_s5k3p9sx_drg_main_hlt_eeprom.so
 vendor/lib/libmmcamera_s5k5e9_drg_aux.so
 vendor/lib/libmmcamera_s5k5e9_drg_aux_eeprom.so
 
-# DRM-Widevine
-vendor/firmware/cppf.b01
-vendor/firmware/cppf.mdt
-vendor/firmware/widevine.b01
-vendor/firmware/widevine.mdt
-
-# Fingerprint
-vendor/firmware/goodix_config_oflim.cfg
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
-
 # Firmware
-vendor/firmware/a508_zap.b01
-vendor/firmware/a508_zap.mdt
-vendor/firmware/a512_zap.b01
-vendor/firmware/a512_zap.mdt
 vendor/firmware/cmnlib.b01
 vendor/firmware/cmnlib.mdt
 vendor/firmware/cmnlib64.b01
 vendor/firmware/cmnlib64.mdt
-vendor/firmware/elanfp64.b01
-vendor/firmware/elanfp64.mdt
-vendor/firmware/gxfp3258_drg.b01
-vendor/firmware/gxfp3258_drg.mdt
 vendor/firmware/TAS2557MSSMono_DRG.bin
 
 # Misc
