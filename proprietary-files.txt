@@ -231,5 +231,19 @@ vendor/lib/libmmcamera_s5k3p9sx_drg_main_hlt_eeprom.so
 vendor/lib/libmmcamera_s5k5e9_drg_aux.so
 vendor/lib/libmmcamera_s5k5e9_drg_aux_eeprom.so
 
+# Fingerprint (Goodix)
+vendor/lib64/hw/fingerprint.gxfp3258_drg.so
+
+# Fingerprint (Firmware - Goodix)
+vendor/firmware/gxfp3258_drg.b00
+vendor/firmware/gxfp3258_drg.b01
+vendor/firmware/gxfp3258_drg.b02
+vendor/firmware/gxfp3258_drg.b03
+vendor/firmware/gxfp3258_drg.b04
+vendor/firmware/gxfp3258_drg.b05
+vendor/firmware/gxfp3258_drg.b06
+vendor/firmware/gxfp3258_drg.b07
+vendor/firmware/gxfp3258_drg.mdt
+
 # Sensor (Configs)
 vendor/etc/sensors/sensor_def_qcomdev_drg.conf
