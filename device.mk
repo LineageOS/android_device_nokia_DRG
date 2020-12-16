@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+DEVICE_PATH := device/nokia/DRG
 
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
@@ -26,6 +27,16 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay
+
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.DRG.target.rc
+
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)

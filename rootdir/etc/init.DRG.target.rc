@@ -1,29 +1,3 @@
-on early-boot
-    # Audio
-    setprop vendor.voice.path.for.pcm.voip false
-    setprop persist.vendor.audio.fluence.speaker false
-    setprop debug.ftm.mixerpath /vendor/etc/mixer_paths_drg.xml
-
-    # Camera
-    setprop camera.ans.yproc.int.main 20,20,20,20
-    setprop camera.ans.uvproc.int.main 20,20,20,20
-    setprop camera.ans.scene.contract.main 0,0,0,0
-    setprop persist.camera.ffcolor FFBB77
-    setprop persist.camera.ffcolor.lev2 FFE4CA
-    setprop persist.camera.ffcolor.th 3500
-    setprop persist.camera.ffcolor.lev3 ffdcb9
-    setprop persist.camera.ffcolor.th2 4500
-    setprop persist.capture.burst.exposures 0,-9,9
-    setprop persist.vendor.camera.isp.turbo 1
-    setprop vendor.camera.hal1.packagelist com.dw.btime
-
-    # Fingerprint
-    setprop ro.hardware.fingerprint gxfp3258_drg
-
-     # Radio
-     setprop persist.radio.qcom_ext_enable true
-     setprop persist.vendor.radio.uicc_se_enabled false
-
 on fs
     # Fingerprint
     chown system system /dev/goodix_fp
@@ -33,53 +7,8 @@ on post-fs-data
     # Fingerprint
     mkdir /data/system/fingerprint 0770 system system
 
-service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-    # "class hal" causes a race condition on some devices due to files created
-    # in /data. As a workaround, postpone startup until later in boot once
-    # /data is mounted.
-    class late_start
-    user system
-    group system input
-    writepid /dev/cpuset/system-background/tasks
+on property:ro.boot.simslot=1
+    setprop persist.radio.multisim.config ss
 
-service gf_cmd_test_1 /vendor/bin/gf_cmd_test_gxfp3258_drg 1
-    user system
-    oneshot
-    disabled
-
-service gf_cmd_test_2 /vendor/bin/gf_cmd_test_gxfp3258_drg 2
-    user system
-    oneshot
-    disabled
-
-service gf_cmd_test_3 /vendor/bin/gf_cmd_test_gxfp3258_drg 3
-    user system
-    oneshot
-    disabled
-
-service gf_cmd_test_4 /vendor/bin/gf_cmd_test_gxfp3258_drg 4
-    user system
-    oneshot
-    disabled
-
-on property:vendor.sys.cmd_test=1 && property:ro.boot.fp=gxfp3258_drg
-    setprop vendor.sys.fqcfpret 0
-    start gf_cmd_test_1
-
-on property:vendor.sys.cmd_test=2 && property:ro.boot.fp=gxfp3258_drg
-    setprop vendor.sys.fqcfpret 0
-    start gf_cmd_test_2
-
-on property:vendor.sys.cmd_test=3 && property:ro.boot.fp=gxfp3258_drg
-    setprop vendor.sys.fqcfpret 0
-    start gf_cmd_test_3
-
-on property:vendor.sys.cmd_test=4 && property:ro.boot.fp=gxfp3258_drg
-    setprop vendor.sys.fqcfpret 0
-    start gf_cmd_test_4
-
-on property:vendor.gxfp.vid=*
-    setprop sys.fp.firmware.version  Goodix-${vendor.gxfp.vid}-${vendor.gxfp.version}
-
-on property:sys.boot_completed=1
-    restorecon_recursive /data/system/fingerprint/
+on property:ro.boot.simslot=2
+    setprop persist.radio.multisim.config dsds

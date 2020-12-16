@@ -1,0 +1,25 @@
+# Audio
+vendor.voice.path.for.pcm.voip=false
+persist.vendor.audio.fluence.speaker=false
+debug.ftm.mixerpath=/vendor/etc/mixer_paths_drg.xml
+
+# Camera
+camera.ans.yproc.int.main=20,20,20,20
+camera.ans.uvproc.int.main=20,20,20,20
+camera.ans.scene.contract.main=0,0,0,0
+persist.capture.burst.exposures=0,-9,9
+persist.camera.ffcolor=FFBB77
+persist.camera.ffcolor.th=3500
+persist.camera.ffcolor.th2=4500
+persist.camera.ffcolor.lev2=FFE4CA
+persist.camera.ffcolor.lev3=ffdcb9
+persist.vendor.camera.isp.turbo=1
+vendor.camera.hal1.packagelist=com.dw.btime
+
+# Fingerprint
+ro.hardware.fingerprint=gxfp3258_drg
+sys.fp.firmware.version=Goodix-0-V01.00.24.11
+
+# Radio
+persist.radio.qcom_ext_enable=true
+persist.vendor.radio.uicc_se_enabled=false
