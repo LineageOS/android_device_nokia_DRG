@@ -11,6 +11,12 @@ vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Hdmi_cal.acdb
 vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Headset_cal.acdb
 vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Speaker_cal.acdb
 
+# Audio (Firmware - TFA9894|TAS2557)
+vendor/bin/TAS2557MSSMono_DRG.ftcfg
+vendor/firmware/TFA9894_drg.cnt
+vendor/firmware/TFA9894_drg.ini
+vendor/firmware/TAS2557MSSMono_DRG.bin
+
 # Camera
 vendor/etc/camera/s5k3p9sx_drg_front_chromatix.xml
 vendor/etc/camera/s5k3p9sx_drg_main_chromatix.xml
