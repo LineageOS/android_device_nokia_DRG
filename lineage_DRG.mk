@@ -24,21 +24,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from DRG device
 $(call inherit-product, device/nokia/DRG/device.mk)
 
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
-
 # Inherit from nokia sdm660-common
 $(call inherit-product, device/nokia/sdm660-common/sdm660.mk)
 
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
