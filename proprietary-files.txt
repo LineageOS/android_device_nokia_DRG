@@ -242,7 +242,24 @@ vendor/firmware/a512_zap.b01
 vendor/firmware/a512_zap.mdt
 
 # Fingerprint (Goodix)
+vendor/etc/permissions/qti_fingerprint_interface.xml
+vendor/firmware/goodix_config.cfg
+vendor/firmware/goodix_config_hlt.cfg
+vendor/firmware/goodix_config_oflim.cfg
+vendor/firmware/goodix_config_truly.cfg
+vendor/firmware/goodix_firmware.bin
+vendor/firmware/goodix_firmware_hlt.bin
+vendor/firmware/goodix_firmware_oflim.bin
+vendor/firmware/goodix_firmware_truly.bin
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/hw/fingerprint.gxfp3258_drg.so
+vendor/lib64/libgf_ca_gxfp3258_drg.so
+vendor/lib64/libgf_hal_gxfp3258_drg.so
+vendor/lib64/libqfp-service.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Fingerprint (Firmware - Goodix)
 vendor/firmware/gxfp3258_drg.b00
