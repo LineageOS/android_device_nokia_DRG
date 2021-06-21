@@ -241,10 +241,15 @@ vendor/lib/libmmcamera_s5k5e9_drg_aux_eeprom.so
 vendor/firmware/a512_zap.b01
 vendor/firmware/a512_zap.mdt
 
-# Fingerprint (Goodix)
-vendor/lib64/hw/fingerprint.gxfp3258_drg.so
-
 # Fingerprint (Firmware - Goodix)
+vendor/firmware/goodix_config.cfg
+vendor/firmware/goodix_config_hlt.cfg
+vendor/firmware/goodix_config_oflim.cfg
+vendor/firmware/goodix_config_truly.cfg
+vendor/firmware/goodix_firmware.bin
+vendor/firmware/goodix_firmware_hlt.bin
+vendor/firmware/goodix_firmware_oflim.bin
+vendor/firmware/goodix_firmware_truly.bin
 vendor/firmware/gxfp3258_drg.b00
 vendor/firmware/gxfp3258_drg.b01
 vendor/firmware/gxfp3258_drg.b02
@@ -254,6 +259,16 @@ vendor/firmware/gxfp3258_drg.b05
 vendor/firmware/gxfp3258_drg.b06
 vendor/firmware/gxfp3258_drg.b07
 vendor/firmware/gxfp3258_drg.mdt
+
+# Fingerprint (Goodix)
+vendor/lib64/hw/fingerprint.gxfp3258_drg.so
+vendor/lib64/libgf_ca_gxfp3258_drg.so
+vendor/lib64/libgf_hal_gxfp3258_drg.so
+vendor/lib64/libqfp-service.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so
+
 
 # Wi-Fi
 vendor/etc/wifi/aoa_cldb_falcon.bin
