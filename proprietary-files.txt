@@ -251,5 +251,9 @@ vendor/firmware/gxfp3258_drg.b06
 vendor/firmware/gxfp3258_drg.b07
 vendor/firmware/gxfp3258_drg.mdt
 
+# Graphics (Firmware - Adreno)
+vendor/firmware/a512_zap.b01
+vendor/firmware/a512_zap.mdt
+
 # Sensor (Configs)
 vendor/etc/sensors/sensor_def_qcomdev_drg.conf
