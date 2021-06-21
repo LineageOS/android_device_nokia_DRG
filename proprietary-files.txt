@@ -255,5 +255,12 @@ vendor/firmware/gxfp3258_drg.b06
 vendor/firmware/gxfp3258_drg.b07
 vendor/firmware/gxfp3258_drg.mdt
 
+# Wi-Fi
+vendor/etc/wifi/aoa_cldb_falcon.bin
+vendor/etc/wifi/aoa_cldb_swl14.bin
+vendor/etc/wifi/bdf/bdwlan_DRG_cal.bin
+vendor/etc/wifi/bdf/bdwlan_TAS_cal.bin
+vendor/etc/wifi/bdf/bdwlan_def.bin
+
 # Sensor (Configs)
 vendor/etc/sensors/sensor_def_qcomdev_drg.conf
