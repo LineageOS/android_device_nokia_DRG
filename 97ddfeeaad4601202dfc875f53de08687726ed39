@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "97081375_bdc03e9f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2021-06-22T04:56:55Z",
+      "side": 1,
+      "message": "This is copied from framework in device tree",
+      "range": {
+        "startLine": 259,
+        "startChar": 0,
+        "endLine": 259,
+        "endChar": 58
+      },
+      "revId": "97ddfeeaad4601202dfc875f53de08687726ed39",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f35162fc_1121d8c5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2021-06-22T04:56:55Z",
+      "side": 1,
+      "message": "This is present in device tree as well",
+      "range": {
+        "startLine": 260,
+        "startChar": 0,
+        "endLine": 260,
+        "endChar": 34
+      },
+      "revId": "97ddfeeaad4601202dfc875f53de08687726ed39",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4e582b7c_268cfa36",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2021-06-22T04:56:55Z",
+      "side": 1,
+      "message": "I doubt this is needed",
+      "range": {
+        "startLine": 266,
+        "startChar": 0,
+        "endLine": 266,
+        "endChar": 26
+      },
+      "revId": "97ddfeeaad4601202dfc875f53de08687726ed39",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a2e1a60_020f78dc",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2021-06-22T04:56:55Z",
+      "side": 1,
+      "message": "In case DRG needs this, it can be built from source\n\nhttps://github.com/LineageOS/android_vendor_qcom_opensource_interfaces/blob/lineage-17.1/wifi/hostapd/1.1/Android.bp",
+      "range": {
+        "startLine": 267,
+        "startChar": 13,
+        "endLine": 267,
+        "endChar": 45
+      },
+      "revId": "97ddfeeaad4601202dfc875f53de08687726ed39",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab036f77_deb35c44",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2021-06-22T04:56:55Z",
+      "side": 1,
+      "message": "I doubt this is needed or even parsed",
+      "revId": "97ddfeeaad4601202dfc875f53de08687726ed39",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
