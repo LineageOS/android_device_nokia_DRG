@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7695d794_167950f9",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-06-24T10:06:03Z",
+      "side": 1,
+      "message": "Unsorted and missing space.",
+      "range": {
+        "startLine": 240,
+        "startChar": 0,
+        "endLine": 240,
+        "endChar": 2
+      },
+      "revId": "646bf10413fb1966d099e0dba4d57b94b9cb7caa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
