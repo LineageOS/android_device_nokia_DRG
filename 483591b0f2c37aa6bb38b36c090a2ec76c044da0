@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "cb28f7cf_695674cd",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-06-24T10:00:16Z",
+      "side": 1,
+      "message": "Then it\u0027s obvious what to do, right?",
+      "parentUuid": "93ea628d_8c704350",
+      "range": {
+        "startLine": 264,
+        "startChar": 0,
+        "endLine": 264,
+        "endChar": 49
+      },
+      "revId": "483591b0f2c37aa6bb38b36c090a2ec76c044da0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aca9b37e_73f8c144",
         "filename": "proprietary-files.txt",
         "patchSetId": 6
