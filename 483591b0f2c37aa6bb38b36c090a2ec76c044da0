@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f8399e6a_d8e6402e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-06-24T09:43:08Z",
+      "side": 1,
+      "message": "Is this one needed?",
+      "range": {
+        "startLine": 264,
+        "startChar": 0,
+        "endLine": 264,
+        "endChar": 49
+      },
+      "revId": "483591b0f2c37aa6bb38b36c090a2ec76c044da0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aca9b37e_73f8c144",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-06-24T09:43:08Z",
+      "side": 1,
+      "message": "Same for the 64-bit one.",
+      "range": {
+        "startLine": 272,
+        "startChar": 0,
+        "endLine": 272,
+        "endChar": 51
+      },
+      "revId": "483591b0f2c37aa6bb38b36c090a2ec76c044da0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
