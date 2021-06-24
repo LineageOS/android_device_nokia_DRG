@@ -70,6 +70,30 @@
       "revId": "646bf10413fb1966d099e0dba4d57b94b9cb7caa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "18e93730_1996d2dd",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-06-24T10:58:40Z",
+      "side": 1,
+      "message": "What didn\u0027t you get after my last reply? This is still unsorted.",
+      "parentUuid": "9005bea4_1cc3c58f",
+      "range": {
+        "startLine": 240,
+        "startChar": 0,
+        "endLine": 240,
+        "endChar": 2
+      },
+      "revId": "646bf10413fb1966d099e0dba4d57b94b9cb7caa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
