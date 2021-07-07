@@ -20,8 +20,13 @@ DEVICE_PATH := device/nokia/DRG
 -include device/nokia/sdm660-common/BoardConfigCommon.mk
 
 # Architecture
-TARGET_CPU_VARIANT_RUNTIME := cortex-a73
+TARGET_CPU_VARIANT := generic
+TARGET_CPU_VARIANT_RUNTIME := kryo
+TARGET_CPU_SMP := true
+
+TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
+ARCH_ARM_HAVE_TLS_REGISTER := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm636
