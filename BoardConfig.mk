@@ -26,6 +26,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a73
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm636
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Kernel
 TARGET_KERNEL_CONFIG := nokia_defconfig
 

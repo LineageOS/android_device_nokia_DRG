@@ -16,9 +16,6 @@ persist.camera.ffcolor.lev3=ffdcb9
 persist.vendor.camera.isp.turbo=1
 vendor.camera.hal1.packagelist=com.dw.btime
 
-# Display
-qemu.sf.lcd_density=420
-
 # Fingerprint
 ro.hardware.fingerprint=gxfp3258_drg
 sys.fp.firmware.version=Goodix-0-V01.00.24.11
