@@ -21,6 +21,9 @@ vendor.camera.hal1.packagelist=com.dw.btime
 ro.hardware.fingerprint=gxfp3258_drg
 sys.fp.firmware.version=Goodix-0-V01.00.24.11
 
+# Notch
+ro.support_hide_display_cutout=true
+
 # Radio
 persist.radio.qcom_ext_enable=true
 persist.vendor.radio.uicc_se_enabled=false
