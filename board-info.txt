@@ -1,0 +1,1 @@
+require board=sdm630|DRG

@@ -23,6 +23,9 @@ DEVICE_PATH := device/nokia/DRG
 TARGET_CPU_VARIANT := cortex-a73
 TARGET_2ND_CPU_VARIANT := cortex-a73
 
+# Assert
+TARGET_BOARD_INFO_FILE := device/nokia/DRG/board-info.txt
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm636
 
