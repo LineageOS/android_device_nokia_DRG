@@ -1,6 +1,9 @@
 # Audio
 debug.ftm.mixerpath=/vendor/etc/mixer_paths_drg.xml
 
+# Bluetooth
+bluetooth.device.default_name=Nokia 6.1 Plus
+
 # Camera
 camera.ans.yproc.int.main=20,20,20,20
 camera.ans.uvproc.int.main=20,20,20,20
