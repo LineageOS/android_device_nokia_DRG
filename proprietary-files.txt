@@ -1,5 +1,5 @@
 ## Common proprietary files
-## From Nokia/Dragon_00WW/DRG_sprout:10/QKQ1.190828.002/00WW_4_150:user/release-keys unless pinned
+## From Nokia/Dragon_00WW/DRG_sprout:10/QKQ1.190828.002/00WW_4_15T:user/release-keys unless pinned
 
 # Audio (Configs)
 vendor/etc/mixer_paths_drg.xml
