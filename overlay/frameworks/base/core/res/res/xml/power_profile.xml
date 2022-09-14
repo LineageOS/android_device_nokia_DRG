@@ -68,6 +68,7 @@
     <item name="bluetooth.controller.idle">0</item>
     <item name="bluetooth.controller.rx">0</item>
     <item name="bluetooth.controller.tx">0</item>
+    <item name="bluetooth.controller.voltage">3300</item>
     <array name="wifi.controller.tx_levels" />
     <item name="wifi.controller.voltage">0</item>
     <array name="wifi.batchedscan">
