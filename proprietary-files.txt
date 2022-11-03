@@ -2,8 +2,8 @@
 ## From Nokia/Dragon_00WW/DRG_sprout:10/QKQ1.190828.002/00WW_4_150:user/release-keys unless pinned
 
 # Audio (Configs)
-vendor/etc/mixer_paths_drg.xml
 vendor/etc/audio_platform_info_drg.xml
+vendor/etc/mixer_paths_drg.xml
 
 # Audio (ACDB)
 vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Bluetooth_cal.acdb
@@ -16,9 +16,9 @@ vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Speaker_cal.acdb
 
 # Audio (Firmware - TFA9894|TAS2557)
 vendor/bin/TAS2557MSSMono_DRG.ftcfg
+vendor/firmware/TAS2557MSSMono_DRG.bin
 vendor/firmware/TFA9894_drg.cnt
 vendor/firmware/TFA9894_drg.ini
-vendor/firmware/TAS2557MSSMono_DRG.bin
 
 # Camera
 vendor/etc/camera/s5k3p9sx_drg_front_chromatix.xml
@@ -275,8 +275,8 @@ vendor/firmware/a512_zap.mdt
 vendor/etc/sensors/sensor_def_qcomdev_drg.conf
 
 # Wi-Fi
-vendor/etc/wifi/aoa_cldb_falcon.bin
-vendor/etc/wifi/aoa_cldb_swl14.bin
 vendor/etc/wifi/bdf/bdwlan_DRG_cal.bin
 vendor/etc/wifi/bdf/bdwlan_TAS_cal.bin
 vendor/etc/wifi/bdf/bdwlan_def.bin
+vendor/etc/wifi/aoa_cldb_falcon.bin
+vendor/etc/wifi/aoa_cldb_swl14.bin
