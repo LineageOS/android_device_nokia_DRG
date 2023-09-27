@@ -8,6 +8,16 @@
 
 # If we're being sourced by the common script that we called,
 # stop right here. No need to go down the rabbit hole.
+
+function blob_fixup() {
+    case "${1}" in
+        # Fix missing symbol _ZN7android8hardware7details17gBnConstructorMapE
+        vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so | vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so)
+            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+            ;;
+    esac
+}
+
 if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
     return
 fi
