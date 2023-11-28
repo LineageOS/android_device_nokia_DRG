@@ -24,6 +24,7 @@ TARGET_CPU_VARIANT := cortex-a73
 TARGET_2ND_CPU_VARIANT := cortex-a73
 
 # Assertions
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := DRG,DRG_sprout,Dragon
 
 # Bootloader
