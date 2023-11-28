@@ -275,8 +275,8 @@ vendor/firmware/a512_zap.mdt
 vendor/etc/sensors/sensor_def_qcomdev_drg.conf
 
 # Wi-Fi
+vendor/etc/wifi/aoa_cldb_falcon.bin
+vendor/etc/wifi/aoa_cldb_swl14.bin
 vendor/etc/wifi/bdf/bdwlan_DRG_cal.bin
 vendor/etc/wifi/bdf/bdwlan_TAS_cal.bin
 vendor/etc/wifi/bdf/bdwlan_def.bin
-vendor/etc/wifi/aoa_cldb_falcon.bin
-vendor/etc/wifi/aoa_cldb_swl14.bin
