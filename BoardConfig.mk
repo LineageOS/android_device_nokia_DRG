@@ -23,6 +23,9 @@ DEVICE_PATH := device/nokia/DRG
 TARGET_CPU_VARIANT := cortex-a73
 TARGET_2ND_CPU_VARIANT := cortex-a73
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := DRG,DRG_sprout,Dragon
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm636
 

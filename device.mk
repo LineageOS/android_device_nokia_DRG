@@ -13,17 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Vendor blobs
+$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
+
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
-
-# Inherit from nokia sdm660-common
-$(call inherit-product, device/nokia/sdm660-common/common.mk)
-
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
-
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -32,7 +26,21 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
-# Ramdisk
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_WIDTH := 1080
+
+# Dalvik
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+
+# GMS
+PRODUCT_GMS_CLIENTID_BASE := android-hmd
+
+# Init
 PRODUCT_PACKAGES += \
     init.DRG.target.rc
 
@@ -40,5 +48,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
 
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
+# Inherit from nokia sdm660-common
+$(call inherit-product, device/nokia/sdm660-common/common.mk)
