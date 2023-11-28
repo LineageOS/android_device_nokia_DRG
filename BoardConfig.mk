@@ -21,7 +21,7 @@ DEVICE_PATH := device/nokia/DRG
 
 # Architecture
 TARGET_CPU_VARIANT_RUNTIME := cortex-a73
-TARGET_2ND_CPU_VARIANT := cortex-a73
+TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
 
 # Assertions
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
