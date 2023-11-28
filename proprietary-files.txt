@@ -1,5 +1,5 @@
-## Common proprietary files
-## From Nokia/Dragon_00WW/DRG_sprout:10/QKQ1.190828.002/00WW_4_150:user/release-keys unless pinned
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from DRG_sprout (QKQ1.190828.002).
 
 # Audio (Configs)
 vendor/etc/audio_platform_info_drg.xml
