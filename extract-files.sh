@@ -12,8 +12,11 @@
 function blob_fixup() {
     case "${1}" in
         # Fix missing symbol _ZN7android8hardware7details17gBnConstructorMapE
-        vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so | vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so)
+        vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so)
             "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+            ;;
+        vendor/lib64/hw/fingerprint.gxfp3258_drg.so)
+            "${PATCHELF}" --add-needed "libhidlbase-v32.so" "${2}"
             ;;
     esac
 }
