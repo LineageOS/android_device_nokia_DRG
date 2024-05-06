@@ -45,3 +45,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
+
+# Inherit from the proprietary version
+include vendor/nokia/DRG/BoardConfigVendor.mk
