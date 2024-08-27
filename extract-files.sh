@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2020 The LineageOS Project
+# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -13,6 +13,7 @@ function blob_fixup() {
     case "${1}" in
         # Fix missing symbol _ZN7android8hardware7details17gBnConstructorMapE
         vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so | vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so)
+            [ "$2" = "" ] && return 0
             "${PATCHELF_0_17_2}" --remove-needed "libhidltransport.so" "${2}"
             "${PATCHELF_0_17_2}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
             ;;
@@ -28,5 +29,6 @@ set -e
 export DEVICE=DRG
 export DEVICE_COMMON=sdm660-common
 export VENDOR=nokia
+export VENDOR_COMMON=${VENDOR}
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
