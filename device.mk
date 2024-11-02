@@ -39,6 +39,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    libhidlbase-v32.vendor \
     liblzma.vendor
 
 # GMS
@@ -47,10 +48,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-hmd
 # Init
 PRODUCT_PACKAGES += \
     init.DRG.target.rc
-
-# VNDK
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
 
 # Inherit from nokia sdm660-common
 $(call inherit-product, device/nokia/sdm660-common/common.mk)
