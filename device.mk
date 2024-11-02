@@ -39,6 +39,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    libhidlbase-v32.vendor \
     liblzma.vendor
 
 # GMS
