@@ -53,8 +53,8 @@ vendor/firmware/TFA9894_drg.cnt
 vendor/firmware/TFA9894_drg.ini
 
 # Camera
-lib/libseemore.so
-lib64/libseemore.so
+system/lib/libseemore.so:vendor/lib/libseemore.so
+system/lib64/libseemore.so:vendor/lib64/libseemore.so
 vendor/bin/mm-qcamera-app
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libMGBeauty.so
