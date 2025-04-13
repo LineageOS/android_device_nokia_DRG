@@ -50,5 +50,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-hmd
 PRODUCT_PACKAGES += \
     init.DRG.target.rc
 
+# Power
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Inherit from nokia sdm660-common
 $(call inherit-product, device/nokia/sdm660-common/common.mk)
