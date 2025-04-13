@@ -12,3 +12,6 @@ on property:ro.boot.simslot=1
 
 on property:ro.boot.simslot=2
     setprop persist.radio.multisim.config dsds
+
+on property:sys.boot_completed=1
+    restorecon_recursive /data/system/fingerprint/
