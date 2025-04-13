@@ -1,3 +1,8 @@
+on boot
+    # Touch panel
+    chown system system /proc/gmnode00000100
+    chmod 777 /proc/gmnode00000100
+
 on fs
     # Fingerprint
     chown system system /dev/goodix_fp
