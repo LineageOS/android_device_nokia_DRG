@@ -29,8 +29,12 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib/hw/camera.sdm660.so': blob_fixup()
+	.remove_needed('libMegviiFacepp.so')
+	.remove_needed('libmegface-new.so')
+	.add_needed('libshim_megvii.so'),
     ('vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so', 'vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so'): blob_fixup()
-	.remove_needed('libhidltransport.so')
+        .remove_needed('libhidltransport.so')
         .replace_needed('libhidlbase.so', 'libhidlbase-v32.so'),
 }  # fmt: skip
 
