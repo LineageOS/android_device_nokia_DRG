@@ -1,5 +1,6 @@
 # Audio
 debug.ftm.mixerpath=/vendor/etc/mixer_paths_drg.xml
+ro.hardware.audio.primary=sdm660-nokia
 
 # Bluetooth
 bluetooth.device.default_name=Nokia 6.1 Plus
