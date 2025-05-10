@@ -38,11 +38,6 @@ TARGET_SCREEN_WIDTH := 1080
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    libhidlbase-v32.vendor \
-    liblzma.vendor
-
 # FM
 PRODUCT_PACKAGES += \
     FM2
