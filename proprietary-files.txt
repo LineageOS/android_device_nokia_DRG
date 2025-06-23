@@ -502,6 +502,9 @@ vendor/lib64/sensors.ssc.so
 # Sensor (Configs)
 vendor/etc/sensors/sensor_def_qcomdev_drg.conf
 
+# Thermal
+vendor/etc/thermal-engine.conf
+
 # Wi-Fi
 vendor/bin/cnss-daemon
 vendor/etc/wifi/aoa_cldb_falcon.bin
