@@ -1,5 +1,4 @@
 # Audio
-debug.ftm.mixerpath=/vendor/etc/mixer_paths_drg.xml
 ro.hardware.audio.primary=sdm660-nokia
 
 # Bluetooth
