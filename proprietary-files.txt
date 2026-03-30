@@ -47,6 +47,7 @@ vendor/lib/rfsa/adsp/libscveT2T_skel.so
 
 # Audio (Configs)
 vendor/etc/audio_platform_info_drg.xml
+vendor/etc/audio_policy_volumes.xml
 vendor/etc/mixer_paths_drg.xml
 
 # Audio (ACDB)
