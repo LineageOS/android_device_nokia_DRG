@@ -311,7 +311,9 @@ vendor/lib/libchromatix_s5k5e9_drg_aux_video_4k.so|eb289ca18ac7c467f184f9a015ee1
 vendor/lib/libchromatix_s5k5e9_drg_aux_zsl_preview_3a.so|f5084bb33d0d53ed8763a15ddfca29cb065cdde0
 vendor/lib/libchromatix_s5k5e9_drg_aux_zsl_video_3a.so|027169debcb6879bb3ad58d69af2e3af21eb743b
 
-# Camera (chromatix configs) - from 00WW_3_54H
+# Camera (configs) - from 00WW_3_54H
+vendor/etc/camera/calibration_test.bin|0061e8a3127857c390d9c3743b64cc4b29cd560c
+vendor/etc/camera/camera_config.xml|a478a4c56ae8a3e4bd6e9a6c2cb56fff0856f4fc
 vendor/etc/camera/s5k3p9sx_drg_front_chromatix.xml|4f2917da022be7971b44066c95824ec4e0663ca4
 vendor/etc/camera/s5k3p9sx_drg_main_chromatix.xml|dda50c6574fbe293b05ba43be47f0ed0480d379a
 vendor/etc/camera/s5k5e9_drg_aux_chromatix.xml|6efd6509de0c4724bde65f5ce488cd426cbb6216
