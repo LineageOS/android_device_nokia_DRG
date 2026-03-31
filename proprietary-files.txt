@@ -70,7 +70,6 @@ vendor/firmware/TFA9894_drg.ini
 # Camera - from 00WW_3_54H
 vendor/bin/mm-qcamera-app|2bf77fc4f057193ad83c9ded2f2ba3899ebbe1ab
 vendor/lib/hw/camera.sdm660.so|9fefef1dc97c447bbc9f0eccaaa32ec31ac96ce2|8e02586cdd5bb2156cfac5d973db18c66f7e41d2
-vendor/lib/libMGBeauty.so|774d5f5651dea41ebb886082b90fa4fb596b6833
 vendor/lib/libdepthmapwrapper.so|8d5f03354650ddea19fc8781c824fbb96105a86e
 vendor/lib/libfih_camera_effect.so|360a9dc97b27b95025860c8dc9508701f81ae5e3
 vendor/lib/libflash_dummy_flash.so|481bd2fccd85401d4834d96e8e4f78f74d37e31e
