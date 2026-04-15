@@ -58,7 +58,7 @@ vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Handset_cal.acdb
 vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Hdmi_cal.acdb
 vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Headset_cal.acdb
 vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Speaker_cal.acdb
-vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/workspaceFile.qwsp
+vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/workspaceFile.qwsp:vendor/etc/acdbdata/workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio (Firmware)
