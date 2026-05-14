@@ -46,6 +46,7 @@ $(call soong_config_set_bool,libfmjni,no_fm_firmware,true)
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-hmd
+WITH_GMS_COMMS_SUITE := false
 
 # Init
 PRODUCT_PACKAGES += \
